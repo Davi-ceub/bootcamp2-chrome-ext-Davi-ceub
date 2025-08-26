@@ -17,7 +17,7 @@ Uma extensão simples para Google Chrome (Manifest V3) que permite fazer anotaç
 Como a extensão não está na Chrome Web Store, siga os passos para instalação em modo de desenvolvedor:
 
 1.  **Baixe a Extensão:**
-    -   Vá para a [página de Releases](sha256:4e0fc013aeb6d780f85ea755fa3bbbd0c330e1c417600b303233a61a816e0b6b).
+    -   Vá para a [página de Releases](https://Davi-ceub.github.io/bootcamp2-chrome-ext-Davi-ceub/releases).
     -   Faça o download do arquivo `quick-note-taker-v1.0.0.zip`.
 
 2.  **Instale no Chrome:**
@@ -29,4 +29,5 @@ Como a extensão não está na Chrome Web Store, siga os passos para instalaçã
 A extensão estará instalada e pronta para uso!
 
 ## Estrutura do Projeto
+
 
