@@ -4,7 +4,7 @@
 
 Uma extensão simples para Google Chrome (Manifest V3) que permite fazer anotações rápidas e salvá-las localmente no navegador. Este projeto foi desenvolvido como parte do Bootcamp.
 
-**[Acesse a Página do Projeto (GitHub Pages)](https://Davi-ceub.github.io/bootcamp2-chrome-ext-Davi-ceub/)**
+**[Acesse a Página do Projeto (GitHub Pages)](https://Davi-ceub.github.io/bootcamp2-chrome-ext-Davi-ceub)**
 
 ## Funcionalidades
 
@@ -29,5 +29,6 @@ Como a extensão não está na Chrome Web Store, siga os passos para instalaçã
 A extensão estará instalada e pronta para uso!
 
 ## Estrutura do Projeto
+
 
 
