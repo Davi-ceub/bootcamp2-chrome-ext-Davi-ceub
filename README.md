@@ -4,7 +4,7 @@
 
 Uma extensão simples para Google Chrome (Manifest V3) que permite fazer anotações rápidas e salvá-las localmente no navegador. Este projeto foi desenvolvido como parte do Bootcamp.
 
-**[Acesse a Página do Projeto (GitHub Pages)](https://Davi-ceub.github.io/bootcamp2-chrome-ext-Davi-ceub/)**
+**[Acesse a Página do Projeto (GitHub Pages)](https://github.com/Davi-ceub/bootcamp2-chrome-ext-Davi-ceub/settings/pages)**
 
 ## Funcionalidades
 
@@ -17,7 +17,7 @@ Uma extensão simples para Google Chrome (Manifest V3) que permite fazer anotaç
 Como a extensão não está na Chrome Web Store, siga os passos para instalação em modo de desenvolvedor:
 
 1.  **Baixe a Extensão:**
-    -   Vá para a [página de Releases](https://github.com/<seu-usuario>/<seu-repositorio>/releases).
+    -   Vá para a [página de Releases](https://github.com/Davi-ceub/bootcamp2-chrome-ext-Davi-ceub/releases/tag/v1.0.0).
     -   Faça o download do arquivo `quick-note-taker-v1.0.0.zip`.
 
 2.  **Instale no Chrome:**
@@ -29,3 +29,8 @@ Como a extensão não está na Chrome Web Store, siga os passos para instalaçã
 A extensão estará instalada e pronta para uso!
 
 ## Estrutura do Projeto
+
+
+
+
+
