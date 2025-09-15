@@ -1,0 +1,15 @@
+{
+  "name": "bootcamp2-chrome-ext",
+  "version": "1.0.0",
+  "description": "Uma extensão para anotações rápidas com testes E2E.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-extension.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run build && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "archiver": "^7.0.1"
+  }
+}

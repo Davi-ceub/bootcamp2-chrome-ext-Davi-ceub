@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Note Taker - Extensão para Chrome</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; }
+        h1, h2 { color: #111; }
+        .header { text-align: center; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .button { background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+        img.screenshot { max-width: 100%; border: 1px solid #ccc; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Quick Note Taker</h1>
+        <p>Extensão para Chrome (Manifest V3) — Projeto do Bootcamp.</p>
+        <p>Uma forma simples e rápida de guardar anotações diretamente no seu navegador.</p>
+        <p><a href="#download" class="button">Download da Extensão</a></p>
+    </header>
+
+    <main>
+        <h2>O que ela faz?</h2>
+        <p>A Quick Note Taker permite que você faça anotações em um popup prático. Tudo que você digita é salvo automaticamente. Você também pode selecionar qualquer texto em uma página, clicar com o botão direito e adicionar diretamente às suas notas!</p>
+        
+        <h2 id="download">Instalação</h2>
+        <p>Como esta extensão não está na Chrome Web Store, a instalação é feita manualmente no modo de desenvolvedor.</p>
+        <ol>
+            <li><strong>Baixe a versão mais recente:</strong> Faça o download do arquivo <code>.zip</code> da <a href="sha256:4e0fc013aeb6d780f85ea755fa3bbbd0c330e1c417600b303233a61a816e0b6b" target="_blank">página de Releases</a>.</li>
+            <li><strong>Descompacte o arquivo:</strong> Extraia o conteúdo do <code>.zip</code> em uma pasta permanente no seu computador.</li>
+            <li><strong>Abra as Extensões do Chrome:</strong> Navegue para <code>chrome://extensions</code>.</li>
+            <li><strong>Ative o Modo de Desenvolvedor:</strong> Ligue o interruptor no canto superior direito.</li>
+            <li><strong>Carregue a Extensão:</strong> Clique em "Carregar sem compactação" e selecione a pasta que você acabou de descompactar.</li>
+        </ol>
+        <p>Pronto! A extensão estará ativa.</p>
+
+        <h2>Permissões Utilizadas</h2>
+        <ul>
+            <li><code>storage</code>: Para salvar suas anotações de forma segura no navegador.</li>
+            <li><code>contextMenus</code>: Para criar a opção "Adicionar à Anotação Rápida" no menu de clique direito.</li>
+            <li><code>alarms</code>: Usado para demonstrar eventos agendados no service worker.</li>
+        </ul>
+    </main>
+</body>
+</html>
