@@ -2,11 +2,11 @@ services:
   e2e:
     build: .
     image: bootcamp/ext-e2e:latest
-    # Adiciona capacidades para o Chrome rodar corretamente
+ 
     cap_add:
       - SYS_ADMIN
-    # Aumenta a memória compartilhada para evitar crashes do Chromium
+
     shm_size: '2gb'
-    # Monta o diretório de relatórios para que possamos vê-lo no nosso computador
+
     volumes:
       - ./playwright-report:/app/playwright-report
